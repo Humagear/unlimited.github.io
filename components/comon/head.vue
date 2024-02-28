@@ -1,26 +1,10 @@
 <template>
-  <div class="header justify-around" >
-    <div class="logo ">
-      <img src="assets/images/bds_qzone.png">
+  <div class="header" >
+    <div class="logo">
+      <img src="">
     </div>
-    <div class="title">
-      这是标题
-    </div>
-    <div class="useLink ">
-      <el-menu mode="horizontal" class="elMenu mx-32px ">
-        <el-menu-item >
-          <nuxt-link to="/" class="mx-32px">首页</nuxt-link>
-        </el-menu-item>
-        <el-menu-item>
-          <nuxt-link to="/about" class="mx-32px">关于我们</nuxt-link>
-        </el-menu-item>
-        <el-menu-item>
-          <nuxt-link to="/serve" class="mx-32px">主营业务</nuxt-link>
-        </el-menu-item>
-        <el-menu-item>
-          <nuxt-link to="/contact" class="mx-32px">联系我们</nuxt-link>
-        </el-menu-item>
-      </el-menu>
+    <div class="useLink">
+
     </div>
   </div>
 </template>
@@ -36,14 +20,17 @@ export default {
    text-decoration: none;
  }
   .header {
-
+    background: antiquewhite;
     display: flex;
+    justify-content: center;
   }
-  .title {
+  .logo {
     position: relative;
     right: 20%;
   }
-
-
+  .useLink {
+    position: relative;
+    left: 20%;
+  }
 
 </style>

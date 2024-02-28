@@ -4,7 +4,11 @@
 <!--      上部导航栏-->
       <Head></Head>
     </el-header>
+<<<<<<< HEAD
     <el-main >
+=======
+    <el-main>
+>>>>>>> origin/master
 <!--      具体内容-->
       <nuxt></nuxt>
     </el-main>
@@ -24,8 +28,12 @@ export default {
 </script>
 
 <style scoped>
+<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
 }
+=======
+
+>>>>>>> origin/master
 </style>
